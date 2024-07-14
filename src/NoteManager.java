@@ -22,9 +22,10 @@ public class NoteManager {
             if(i == notes.size() -1 ){
                 resposta += notes.get(i).getTitulo();
             }
-            resposta += notes.get(i).getTitulo() + "\n";
+            else{
+                resposta += notes.get(i).getTitulo() + "\n";
+            }
         }
-
         return resposta;
     }
 
