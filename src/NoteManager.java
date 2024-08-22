@@ -33,6 +33,7 @@ public class NoteManager {
         for(Note note :notes){
             if(note.getTitulo().equals(titulo)){
                 notes.remove(note);
+                break;
             }
         }
     }
@@ -43,6 +44,7 @@ public class NoteManager {
         for(Note note :notes){
             if(note.getTitulo().equals(titulo)){
                 resposta = note.toString();
+                break;
             }
         }
 
